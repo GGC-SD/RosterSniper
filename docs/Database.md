@@ -12,6 +12,7 @@ Here, Django uses the migration files to generate and run SQL that creates or mo
 ```sh
 $ ./manage.py sqlmigrate app_label migration_name
 ```
+NOTE: The app's internal label is "core" and the migrations are listed under ".\django_project\core\migrations" with 0001_initial being the thing you should call to set-up the tables and rows for a localhost database.
 
 ## Managing Data
 
